@@ -7,9 +7,9 @@
 		"description": "Join us in supporting access to quality healthcare for underserved communities. Your contribution helps fund medical clinics, provide essential medications, and train healthcare workers in remote areas. Together, we can make a significant impact on improving health outcomes for those who need it most. Your generous donation of $50 will directly support our mission to save lives and promote well-being. Together, we can create a healthier world for all. Thank you for your compassion and support.",
 		"price": "$50",
 		"categoryBackgroundColor": "#3498db",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#e74c3c",
-		"cardColor": "#ecf0f1"
+		"textColor": "#0052FF",
+		"buttonBackgroundColor": "#ABC8FE",
+		"cardColor": "#A9C9FD"
 	},
 	{
 		"id": "2",
@@ -19,34 +19,33 @@
 		"description": "Help us prepare children for school by providing them with essential clothing and uniforms. Your $30 donation will ensure that children start the school year confidently and comfortably. Together, we can remove barriers to education and support the academic success of young learners.",
 		"price": "$30",
 		"categoryBackgroundColor": "#9b59b6",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#2ecc71",
-		"cardColor": "#ecf0f1"
+		"textColor": "#79C23F",
+		"buttonBackgroundColor": "#D4ECC1",
+		"cardColor": "#EBF6E2"
 	},
 	{
 		"id": "3",
-    "image": "https://i.ibb.co/DpJqtDB/Food.png",
+		"image": "https://i.ibb.co/DpJqtDB/Food.png",
 		"title": "School Lunch Program",
 		"category": "Food",
 		"description": "Help us provide healthy school lunches to children in underserved schools. Your $10 donation will ensure that every child receives a nutritious meal while at school. Together, we can support the learning and development of young minds through proper nutrition.",
 		"price": "$10",
 		"categoryBackgroundColor": "#e67e22",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#2ecc71",
-		"cardColor": "#ecf0f1"
-		
+		"textColor": "#F87147", 
+    "buttonBackgroundColor": "#ffdab9",
+    "cardColor": "#ffecb5" 
 	},
 	{
 		"id": "4",
-    "image": "https://i.ibb.co/34hB84t/Education.png",
+		"image": "https://i.ibb.co/34hB84t/Education.png",
 		"title": "Educational Outreach",
 		"category": "Education",
 		"description": "Empower the next generation through education. Our mission is to provide quality education to underserved children, breaking the cycle of poverty. Your donation of $30 will help us build schools, provide educational materials, and support dedicated teachers. Together, we can create a brighter future for these children, unlocking their potential and giving them the tools they need to succeed. Join us in making a lasting impact on education and shaping a better tomorrow.",
 		"price": "$30",
 		"categoryBackgroundColor": "#2ecc71",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#f1c40f",
-		"cardColor": "#ecf0f1"
+		"textColor": "#E93E44",
+		"buttonBackgroundColor": "#FFC3C5",
+		"cardColor": "#FFE3E4"
 	},
 	{
 		"id": "5",
@@ -56,57 +55,45 @@
 		"description": "Support our community food kitchen initiative aimed at providing hot, nutritious meals to individuals and families in need. Your $30 donation will help us operate the kitchen and serve warm meals to those facing hunger. Join us in nourishing our community and spreading kindness.",
 		"price": "$30",
 		"categoryBackgroundColor": "#e67e22",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#e74c3c",
-		"cardColor": "#ecf0f1"
+		"textColor": "#F87147", 
+    "buttonBackgroundColor": "#ffdab9",
+    "cardColor": "#ffecb5" 
 	},
 	{
 		"id": "6",
-    "image": "https://i.ibb.co/1rhSd98/Health.png",
+		"image": "https://i.ibb.co/1rhSd98/Health.png",
 		"title": "Maternal Health Support",
 		"category": "Health",
 		"description": "Help us improve maternal health by providing prenatal care and support to expectant mothers. Your $75 donation will enable us to offer essential medical services and educate mothers on maternal health. Together, we can reduce maternal mortality rates and ensure healthier lives for both mothers and infants in underserved communities.",
 		"price": "$75",
 		"categoryBackgroundColor": "#3498db",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#9b59b6",
-		"cardColor": "#ecf0f1"
-
-
-
-
+		"textColor": "#0052FF",
+		"buttonBackgroundColor": "#ABC8FE",
+		"cardColor": "#A9C9FD"
 	},
 	{
 		"id": "7",
-    "image": "https://i.ibb.co/34hB84t/Education.png",
+		"image": "https://i.ibb.co/34hB84t/Education.png",
 		"title": "Scholarship Fund",
 		"category": "Education",
 		"description": "Help us provide scholarships to deserving students who aspire to higher education. Your $25 donation will support students in pursuing their dreams and achieving academic success. By investing in education, you contribute to the growth of future leaders and innovators. Join us in making higher education accessible and affordable for all.",
 		"price": "$25",
 		"categoryBackgroundColor": "#2ecc71",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#9b59b6",
-		"cardColor": "#ecf0f1"
-
-
-
-
-
-		
+		"textColor": "#E93E44",
+		"buttonBackgroundColor": "#FFC3C5",
+		"cardColor": "#FFE3E4"
 	},
 	{
 		"id": "8",
-    
 		"image": "https://i.ibb.co/DpJqtDB/Food.png",
 		"title": "Feeding the Hungry",
 		"category": "Food",
 		"description": "Join us in our mission to provide nutritious meals to those experiencing hunger. Your $20 donation will help us purchase and distribute food to families in need. Together, we can combat food insecurity and ensure that no one goes to bed hungry. Your support makes a significant difference in the lives of those less fortunate.",
 		"price": "$20",
 		"categoryBackgroundColor": "#e67e22",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#3498db",
-		"cardColor": "#ecf0f1"
-		
+		"textColor": "#F87147", 
+    "buttonBackgroundColor": "#ffdab9",
+    "cardColor": "#ffecb5" 
 	},
 	{
 		"id": "9",
@@ -116,9 +103,9 @@
 		"description": "Support our digital learning initiative aimed at providing electronic devices and internet access to students in need. Your $40 donation will bridge the digital divide, ensuring that every child has equal access to online education resources. Join us in empowering students to thrive in a digital world.",
 		"price": "$40",
 		"categoryBackgroundColor": "#2ecc71",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#e74c3c",
-		"cardColor": "#ecf0f1"
+		"textColor": "#E93E44",
+		"buttonBackgroundColor": "#FFC3C5",
+		"cardColor": "#FFE3E4"
 	},
 	{
 		"id": "10",
@@ -128,37 +115,32 @@
 		"description": "Help us provide warmth and dignity to those in need by contributing to our clothing drive. Your $20 donation will go toward collecting and distributing warm clothing items, such as coats, blankets, and winter wear, to homeless individuals and families facing harsh weather conditions. Together, we can make a significant difference in the lives of those less fortunate, ensuring they stay warm and comfortable during challenging times.",
 		"price": "$20",
 		"categoryBackgroundColor": "#9b59b6",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#3498db",
-		"cardColor": "#ecf0f1"
+		"textColor": "#79C23F",
+		"buttonBackgroundColor": "#D4ECC1",
+		"cardColor": "#EBF6E2"
 	},
 	{
 		"id": "11",
-    "image": "https://i.ibb.co/1rhSd98/Health.png",
+		"image": "https://i.ibb.co/1rhSd98/Health.png",
 		"title": "Medical Assistance",
 		"category": "Health",
 		"description": "Support our programs for medical assistance in underserved areas. Your $100 donation will directly fund medical treatments, surgeries, and the provision of life-saving medications. By contributing, you become a crucial part of our mission to ensure that no one is left without access to critical healthcare services. Together, we can save lives and improve the well-being of countless individuals in need.",
 		"price": "$100",
 		"categoryBackgroundColor": "#3498db",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#2ecc71",
-		"cardColor": "#ecf0f1"
-		
+		"textColor": "#0052FF",
+		"buttonBackgroundColor": "#ABC8FE",
+		"cardColor": "#A9C9FD"
 	},
 	{
 		"id": "12",
-    "image": "https://i.ibb.co/WfZ1NFH/Clothing.png",
+		"image": "https://i.ibb.co/WfZ1NFH/Clothing.png",
 		"title": "Warm Winter Clothes",
 		"category": "Clothing",
 		"description": "Support our campaign to provide warm winter clothing to those in need. Your $35 donation will help us distribute coats, sweaters, and blankets to individuals and families facing cold weather conditions. Your contribution ensures that vulnerable individuals stay warm and comfortable during the winter months. Join us in spreading warmth and compassion in our community.",
 		"price": "$35",
 		"categoryBackgroundColor": "#9b59b6",
-		"textColor": "#ffffff",
-		"buttonBackgroundColor": "#f1c40f",
-		"cardColor": "#ecf0f1"
-
-
-
-		
+		"textColor": "#79C23F",
+		"buttonBackgroundColor": "#D4ECC1",
+		"cardColor": "#EBF6E2"
 	}
 ]

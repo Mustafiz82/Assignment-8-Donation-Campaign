@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/Logo.png"
 
 const Nav = () => {
 	return (
@@ -10,7 +11,7 @@ const Nav = () => {
 						{" "}
 						<img
 							className="w-44 m-0 p-0"
-							src="src/assets/Logo.png"
+							src={logo}
 							alt=""
 						/>
 					</a>

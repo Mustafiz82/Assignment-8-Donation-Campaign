@@ -1,18 +1,17 @@
 import React from 'react';
 import Banner from '../../component/Header/Banner';
-import { useLoaderData } from 'react-router-dom';
+import Donation from '../../component/Donations/Donation';
+import Donations from '../../component/Donations/Donations';
 
 const Home = () => {
-    const loader = useLoaderData()
-    console.log(loader);
+    
+    // console.log(loader); 
     return (
         <div>
            <Banner></Banner>
-           <div>
-            {
-                loader.map(item => <h1>helo</h1>)
-            }
-           </div>
+           {/* <Donations></Donations> */}
+           <Donations></Donations>
+           
         </div>
     );
 };
