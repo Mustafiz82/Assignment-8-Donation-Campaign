@@ -1,18 +1,33 @@
-import React from 'react';
-import Banner from '../../component/Header/Banner';
-import Donation from '../../component/Donations/Donation';
-import Donations from '../../component/Donations/Donations';
+import React, { useEffect, useState } from "react";
+import Banner from "../../component/Header/Banner";
+import Donation from "../../component/Donations/Donation";
+import Donations from "../../component/Donations/Donations";
+import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
-    
-    return (
-        <div>
-           <Banner></Banner>
-           {/* <Donations></Donations> */}
-           <Donations></Donations>
-           
-        </div>
-    );
+	const [search, setSearch] = useState("");
+
+	const handleSearch = (event) => {
+		event.preventDefault();
+		const value = event.target.searchInput.value;
+		console.log(value);
+		setSearch(value);
+
+
+       
+	};
+	useEffect(() => {
+		console.log(search);
+	}, [search]);
+	return (
+		<div>
+			<Banner handleSearch={handleSearch}></Banner>
+			<Donations
+				handleSearch={handleSearch}
+				search={search}
+			></Donations>
+		</div>
+	);
 };
 
 export default Home;

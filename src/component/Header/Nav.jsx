@@ -5,19 +5,19 @@ import logo from "../../assets/Logo.png"
 const Nav = () => {
 	return (
 		<div className="mb-12">
-			<div className="navbar bg-base-100">
+			<div className="navbar bg-base-100 flex flex-col lg:flex-row">
 				<div className="flex-1">
 					<a className="btn btn-ghost normal-case text-xl m-0 p-0">
 						{" "}
 						<img
-							className="w-44 m-0 p-0"
+							className="w-full lg:w-44 m-0 p-0 "
 							src={logo}
 							alt=""
 						/>
 					</a>
 				</div>
 				<div className="flex-none">
-					<ul className="menu menu-horizontal px-1 text-lg gap-4">
+					<ul className="menu menu-horizontal px-1 text-lg gap-4 justify-center">
 							<NavLink
 								to="/"
 								className={({ isActive, isPending }) =>

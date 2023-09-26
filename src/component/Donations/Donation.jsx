@@ -29,6 +29,7 @@ const Donation = ({ item }) => {
 				<div className=" relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
 					<div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border  shadow-none">
 						<img
+                            className="w-full "
 							src={image}
 							alt={title}
 						/>
