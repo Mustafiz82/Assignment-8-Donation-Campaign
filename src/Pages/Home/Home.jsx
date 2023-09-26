@@ -10,14 +10,12 @@ const Home = () => {
 	const handleSearch = (event) => {
 		event.preventDefault();
 		const value = event.target.searchInput.value;
-		console.log(value);
 		setSearch(value);
 
 
        
 	};
 	useEffect(() => {
-		console.log(search);
 	}, [search]);
 	return (
 		<div>

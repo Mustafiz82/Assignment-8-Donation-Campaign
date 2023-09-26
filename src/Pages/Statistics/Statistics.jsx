@@ -4,17 +4,15 @@ import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 const Statistics = () => {
 	const [value, setVelue] = useState();
 	const Donation = JSON.parse(localStorage.getItem("donation"));
-	// const value = Donation.length
-	// console.log(Donation);
+	
 	if (Donation) {
 		useEffect(() => {
 			setVelue(Donation.length);
-			console.log("hello donation if");
 		}, []);
 	}
 
 	const data = [
-		{ name: "Group A", value: 12 - value },
+		{ name: "Group A", value: 12 - value ||12 },
 		{ name: "Group B", value: value },
 	];
 

@@ -3,7 +3,6 @@ import { useLoaderData } from 'react-router-dom';
 import Donation from './Donation';
 
 const Donations = ({ search}) => {
-    console.log(search);
     const [filterLoader , setFilterLoader] = useState([])
 
 
@@ -14,7 +13,6 @@ const Donations = ({ search}) => {
 
     },[search])
 
-    console.log(filterLoader);
   
 
     return (

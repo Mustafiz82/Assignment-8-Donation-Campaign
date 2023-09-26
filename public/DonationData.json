@@ -8,7 +8,7 @@
 		"price": "$50",
 		"categoryBackgroundColor": "#3498db",
 		"textColor": "#0052FF",
-		"buttonBackgroundColor": "#ABC8FE",
+		"buttonBackgroundColor": "#9BB0FF",
 		"cardColor": "#A9C9FD"
 	},
 	{
@@ -68,7 +68,7 @@
 		"price": "$75",
 		"categoryBackgroundColor": "#3498db",
 		"textColor": "#0052FF",
-		"buttonBackgroundColor": "#ABC8FE",
+		"buttonBackgroundColor": "#9BB0FF",
 		"cardColor": "#A9C9FD"
 	},
 	{
@@ -128,7 +128,7 @@
 		"price": "$100",
 		"categoryBackgroundColor": "#3498db",
 		"textColor": "#0052FF",
-		"buttonBackgroundColor": "#ABC8FE",
+		"buttonBackgroundColor": "#9BB0FF",
 		"cardColor": "#A9C9FD"
 	},
 	{

@@ -14,13 +14,18 @@ const DonationDetail = () => {
 	const handleLoad = () => {
 		const donation = JSON.parse(localStorage.getItem("donation"));
 
+
 		if (!donation) {
 			array.push(foundData);
 			localStorage.setItem("donation", JSON.stringify(array));
-			console.log("if");
+            Swal.fire(
+                "Donation Successfull",
+                `You Donated the ${price} for ${title}!`,
+                "success"
+            );
 		} else {
 			const isExist = donation.find((item) => item.id == data.id);
-			console.log(isExist);
+			
 			if (isExist) {
 				Swal.fire({
 					icon: "error",

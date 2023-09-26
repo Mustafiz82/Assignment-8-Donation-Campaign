@@ -14,14 +14,12 @@ const DonationLIst = () => {
 			setNoData(true);
 		}
 	}, []);
-	console.log(donation);
 
 	const donations = JSON.parse(localStorage.getItem("donation"));
 	// let newDonasion = donations.slice(0,4)
 
 	const handleSeeAll = () => {
 		setIsShow(!isShow);
-		console.log(isShow);
 	};
 
 	return (
