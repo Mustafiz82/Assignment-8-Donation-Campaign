@@ -24,7 +24,7 @@ const Banner = ({ handleSearch  }) => {
 					I Grow By Helping People In Need
 				</h1>
 				<div className="flex justify-center">
-					<div className=" border-2 rounded-xl w-96 flex justify-center items-center">
+					<div className="  rounded-xl w-96 flex justify-center items-center">
 						<form onSubmit={handleSearch} >
 							<input
 								type="text "
