@@ -1,8 +1,13 @@
-# React + Vite
+# Project Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Search:** Users can view specific donation categories by searching for a category.
 
-Currently, two official plugins are available:
+- **Verify Donations:** Users can verify whether a donation has actually occurred through sweet alerts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Color-Coded Categories:** Categories are designed with distinctive colors, making it easier for users to identify each category.
+
+- **Donation List:** Users can access a list and view detailed information about their donations.
+
+- **Pie Chart:** Users can visualize the percentage of their donations through a pie chart.
+
+- **Responsive Design:** The website is fully responsive and compatible with all devices.
