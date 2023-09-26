@@ -74,14 +74,15 @@ const Statistics = () => {
 			</PieChart>
 
             <div className="flex gap-6 mt-12">
+            <div className="flex gap-3">
+                    <h1>Total Donation</h1>
+                    <div className="w-24 h-6 bg-[#FF444A]"></div>
+                </div>
                 <div className="flex gap-3">
                     <h1>Your Donation</h1>
                     <div className="w-24 h-6 bg-[#00C49F] "></div>
                 </div>
-                <div className="flex gap-3">
-                    <h1>Total Donation</h1>
-                    <div className="w-24 h-6 bg-[#FF444A]"></div>
-                </div>
+                
             </div>
 		</div>
 	);

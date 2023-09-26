@@ -6,27 +6,39 @@ const DonationDetail = () => {
 	const data = useParams();
 	const loadData = useLoaderData();
 	const foundData = loadData.find((item) => item.id == data.id);
-	const { title, image, textColor, id, price, description } = foundData;
+	const { title, image, textColor, id, price, description, category } =
+		foundData;
 
 	const array = [];
 
 	const handleLoad = () => {
 		const donation = JSON.parse(localStorage.getItem("donation"));
-        
+
 		if (!donation) {
 			array.push(foundData);
 			localStorage.setItem("donation", JSON.stringify(array));
-			
+			console.log("if");
 		} else {
-			array.push(...donation, foundData);
-			localStorage.setItem("donation", JSON.stringify(array));
-            
-    		}
-            Swal.fire(
-                'Donation Successfull',
-                `You Donated the ${price} for Clothing!`,
-                'success'
-              )
+			const isExist = donation.find((item) => item.id == data.id);
+			console.log(isExist);
+			if (isExist) {
+				Swal.fire({
+					icon: "error",
+					title: "Donation Not successfull",
+					text: `You have already donated for ${title}`,
+				});
+			} else {
+				array.push(...donation, foundData);
+
+				localStorage.setItem("donation", JSON.stringify(array));
+
+				Swal.fire(
+					"Donation Successfull",
+					`You Donated the ${price} for ${title}!`,
+					"success"
+				);
+			}
+		}
 	};
 
 	return (
