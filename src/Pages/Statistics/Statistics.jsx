@@ -60,7 +60,7 @@ const Statistics = () => {
 					cy="50%"
 					labelLine={false}
 					label={renderCustomizedLabel}
-					outerRadius={200}
+					outerRadius={180}
 					fill="#8884d8"
 					dataKey="value"
 				>
@@ -73,7 +73,7 @@ const Statistics = () => {
 				</Pie>
 			</PieChart>
 
-            <div className="flex gap-6 mt-12">
+            <div className="flex gap-6 mt-12 flex-col lg:flex-row">
             <div className="flex gap-3">
                     <h1>Total Donation</h1>
                     <div className="w-24 h-6 bg-[#FF444A]"></div>

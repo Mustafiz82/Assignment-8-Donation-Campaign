@@ -29,7 +29,7 @@ const DonationLIst = () => {
 			{noData && (
 				<p className="text-center text-3xl font-semibold">No Donation found</p>
 			)}
-			<div className="grid grid-cols-2 gap-5">
+			<div className="grid grid-cols-1  md:grid-cols-2 gap-5">
 				{isShow
 					? donation.map((item) => (
 							<DonationEach

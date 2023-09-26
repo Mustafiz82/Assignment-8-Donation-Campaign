@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/Logo.png"
+import logo from "../../assets/Logo.png";
 
 const Nav = () => {
 	return (
@@ -16,39 +16,44 @@ const Nav = () => {
 						/>
 					</a>
 				</div>
-				<div className="flex-none">
-					<ul className="menu menu-horizontal px-1 text-lg gap-4 justify-center">
-							<NavLink
-								to="/"
-								className={({ isActive, isPending }) =>
-									isPending ? "" : isActive ? "font-bold text-red-500 underline" : ""
-								}
-							>
-								Home
-							</NavLink>
-						<li>
-						</li>
-							<NavLink
-								to="/Donation"
-								className={({ isActive, isPending }) =>
-									isPending ? "" : isActive ? "font-bold text-red-500 underline" : ""
-								}
-							>
-								Donation
-							</NavLink>
-						<li>
-						</li>
-							<NavLink
-								to="/Statistics"
-								className={({ isActive, isPending }) =>
-									isPending ? "" : isActive ? "font-bold text-red-500 underline" : ""
-								}
-							>
-								Statistics
-							</NavLink>
-						<li>
-						</li>
-						
+				<div className="flex mt-5 ">
+					<ul className="menu w-full menu-horizontal px-1  text-lg gap-10  justify-between mt-5  text-2xl lg:text-xl ">
+						<NavLink
+							to="/"
+							className={({ isActive, isPending }) =>
+								isPending
+									? ""
+									: isActive
+									? "font-bold text-red-500 underline"
+									: ""
+							}
+						>Home
+							
+						</NavLink>
+						<NavLink
+							to="/Donation"
+							className={({ isActive, isPending }) =>
+								isPending
+									? ""
+									: isActive
+									? "font-bold text-red-500 underline"
+									: ""
+							}
+						>
+							<span className="text-right">Donation</span>
+						</NavLink>
+						<NavLink
+							to="/Statistics"
+							className={({ isActive, isPending }) =>
+								isPending
+									? ""
+									: isActive
+									? "font-bold text-red-500 underline"
+									: ""
+							}
+						>
+							Statistics
+						</NavLink>
 					</ul>
 				</div>
 			</div>

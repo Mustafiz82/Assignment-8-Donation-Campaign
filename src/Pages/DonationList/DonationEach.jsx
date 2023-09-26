@@ -26,14 +26,15 @@ const DonationEach = ({ item }) => {
 	return (
 		<div>
 			<div className="card lg:card-side ">
-				<div className="m-0 p-0">
+                <div>
 					<img
-                        className="h-full object-cover"
+                        className="h-full w-full object-cover"
 						src={image}
 						alt="Album"
+
 					/>
 				</div>
-				<div style={cardStyle} className="card-body">
+				<div style={cardStyle} className="card-body flex items-center">
 					<button
 						className={`btn w-min `}
 						style={buttonStyle}

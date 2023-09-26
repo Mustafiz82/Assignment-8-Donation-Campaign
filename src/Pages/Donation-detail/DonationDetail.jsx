@@ -47,7 +47,7 @@ const DonationDetail = () => {
 				<img
 					src={image}
 					alt=""
-					className="h-[600px] w-full object-cover"
+					className="h-auto lg:h-[600px] w-full object-cover"
 				/>
 				<button
 					className={`btn text-white absolute bottom-0 m-8`}
@@ -58,8 +58,8 @@ const DonationDetail = () => {
 				</button>
 			</div>
 			<div>
-				<h1 className="text-5xl my-5 font-semibold">{title}</h1>
-				<p>{description}</p>
+				<h1 className="text-3xl lg:text-5xl my-5 font-semibold">{title}</h1>
+				<p className="text-justify">{description}</p>
 			</div>
 		</div>
 	);

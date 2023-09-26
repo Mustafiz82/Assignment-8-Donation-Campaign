@@ -19,8 +19,8 @@ const Banner = ({ handleSearch  }) => {
 				</div>
 			</div>
 
-			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-				<h1 className="mb-5 text-4xl font-bold ">
+			<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+				<h1 className="mb-5 text-4xl font-bold  text-center lg:text-left w-full">
 					I Grow By Helping People In Need
 				</h1>
 				<div className="flex justify-center">
