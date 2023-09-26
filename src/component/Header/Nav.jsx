@@ -4,7 +4,7 @@ import logo from "../../assets/Logo.png"
 
 const Nav = () => {
 	return (
-		<div className="">
+		<div className="mb-12">
 			<div className="navbar bg-base-100">
 				<div className="flex-1">
 					<a className="btn btn-ghost normal-case text-xl m-0 p-0">

@@ -13,13 +13,7 @@ const Donation = ({ item }) => {
 		id,
 	} = item;
 
-	console.log(
-		cardColor,
-		buttonBackgroundColor,
-		textColor,
-		categoryBackgroundColor
-	);
-
+	
 	const cardStyle = {
 		backgroundColor: cardColor,
 	};
@@ -31,8 +25,8 @@ const Donation = ({ item }) => {
 
 	return (
 		<div>
-			<Link to={`/Donation/${id}`}>
-				<div className="relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+			<Link to={`/DonationDetail/${id}`}>
+				<div className=" relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
 					<div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border  shadow-none">
 						<img
 							src={image}

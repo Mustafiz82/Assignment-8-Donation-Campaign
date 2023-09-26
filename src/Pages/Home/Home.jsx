@@ -5,7 +5,6 @@ import Donations from '../../component/Donations/Donations';
 
 const Home = () => {
     
-    // console.log(loader); 
     return (
         <div>
            <Banner></Banner>

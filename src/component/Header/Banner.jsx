@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
-
+import bgImage from "../../assets/Rectangle 4281.png"
 const Banner = () => {
 	return (
 		<div className=" relative">
 			<div
 				className="hero h-[600px] opacity-10 "
 				style={{
-					backgroundImage: "url('src/assets/Rectangle 4281.png') ",
+					backgroundImage: `url("${bgImage}")`,
 
 					// backgroundSize: "cover"
 				}}
