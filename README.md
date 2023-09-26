@@ -2,12 +2,12 @@
 
 - **Search:** Users can view specific donation categories by searching for a category.
 
-- **Verify Donation:** Users can receive notifications to confirm that their donations have been completed successfully.
+- **Verify Donations:** Users can verify whether a donation has actually occurred through sweet alerts.
 
-- **Color-Coded Categories:** Categories are color-coded for easy identification, making it simple for users to distinguish between them.
+- **Color-Coded Categories:** Categories are designed with distinctive colors, making it easier for users to identify each category.
 
-- **Donation List:** Users can view a comprehensive list of donations and access detailed information about each donation.
+- **Donation List:** Users can access a list and view detailed information about their donations.
 
-- **Pie Chart:** A visual representation allows users to see the percentage of their total donations.
+- **Pie Chart:** Users can visualize the percentage of their donations through a pie chart.
 
 - **Responsive Design:** The website is fully responsive and compatible with all devices.
